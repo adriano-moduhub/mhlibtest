@@ -1,0 +1,14 @@
+{
+  "name": "mhlibtest",
+  "version": "0.0.0",
+  "description": "ModuHub Javascript Library Test",
+  "license": "MIT",
+  "repository": "adriano-moduhub/mhlibtest",
+  "main": "index.js",
+  "keywords": [
+    "mhlib",
+    "npm",
+    "package",
+    "moduhub"
+  ]
+}
