@@ -1,3 +1,5 @@
+import hash from 'hash.js';
+
 export default class MH_Utils {
 
     static debug(pMessage, printTime, ative) {
@@ -19,6 +21,12 @@ export default class MH_Utils {
 				}
 
 		}
+
+	}
+
+	static sha256(pData) {
+
+		return hash.sha256().update(pData).digest('hex');
 
 	}
 	

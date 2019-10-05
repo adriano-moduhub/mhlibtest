@@ -46,9 +46,10 @@ export default [
 	},
 	{
 		input: 'src/MainCJS.js',
-		external: ['elliptic'],
+		external: ['elliptic', 'hash.js'],
 		output: [
-			{ file: pkg.main, format: 'cjs' }
+			{ file: pkg.main, format: 'cjs' },
+			{ file: pkg.module, format: 'es' }
 		],
 		plugins: [
 			babel({
